@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		81D5F44C27DB63C2005884BB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5F44B27DB63C2005884BB /* Video.swift */; };
+		81D5F45127DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45027DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov */; };
+		81D5F45327DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45227DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov */; };
 		C8F1FCEB27D35CA300AA8757 /* Lola_sToyBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */; };
 		C8F1FCED27D35CA300AA8757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEC27D35CA300AA8757 /* ContentView.swift */; };
 		C8F1FCEF27D35CA500AA8757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F1FCEE27D35CA500AA8757 /* Assets.xcassets */; };
@@ -16,6 +18,10 @@
 
 /* Begin PBXFileReference section */
 		81D5F44B27DB63C2005884BB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		81D5F45027DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "VideoCAT-Rotated-To-Vertical.mov"; sourceTree = "<group>"; };
+		81D5F45227DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "VideoCAT-Rotated-Back-To-Horizontal.mov"; sourceTree = "<group>"; };
+		81D5F45427DB685A005884BB /* Jake-Example-Video-4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jake-Example-Video-4.mp4"; sourceTree = "<group>"; };
+		81D5F45527DB6862005884BB /* Jake-Example-Video-5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jake-Example-Video-5.mp4"; sourceTree = "<group>"; };
 		C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoCAT.MP4; sourceTree = "<group>"; };
 		C8F1FCE727D35CA300AA8757 /* Lola'sToyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lola'sToyBox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lola_sToyBoxApp.swift; sourceTree = "<group>"; };
@@ -55,6 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */,
+				81D5F45027DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov */,
+				81D5F45227DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov */,
+				81D5F45427DB685A005884BB /* Jake-Example-Video-4.mp4 */,
+				81D5F45527DB6862005884BB /* Jake-Example-Video-5.mp4 */,
 			);
 			path = VideoAssets;
 			sourceTree = "<group>";
@@ -156,6 +166,8 @@
 			files = (
 				C8F1FCF227D35CA500AA8757 /* Preview Assets.xcassets in Resources */,
 				C8F1FCEF27D35CA500AA8757 /* Assets.xcassets in Resources */,
+				81D5F45127DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov in Resources */,
+				81D5F45327DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
