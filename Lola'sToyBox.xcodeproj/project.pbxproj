@@ -10,6 +10,9 @@
 		81D5F44C27DB63C2005884BB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5F44B27DB63C2005884BB /* Video.swift */; };
 		81D5F45127DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45027DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov */; };
 		81D5F45327DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45227DB6814005884BB /* VideoCAT-Rotated-Back-To-Horizontal.mov */; };
+		81D5F45627DB6BA6005884BB /* videoCAT.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */; };
+		81D5F45727DB6BA6005884BB /* Jake-Example-Video-4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45427DB685A005884BB /* Jake-Example-Video-4.mp4 */; };
+		81D5F45827DB6BA6005884BB /* Jake-Example-Video-5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81D5F45527DB6862005884BB /* Jake-Example-Video-5.mp4 */; };
 		C8F1FCEB27D35CA300AA8757 /* Lola_sToyBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */; };
 		C8F1FCED27D35CA300AA8757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEC27D35CA300AA8757 /* ContentView.swift */; };
 		C8F1FCEF27D35CA500AA8757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F1FCEE27D35CA500AA8757 /* Assets.xcassets */; };
@@ -164,6 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D5F45627DB6BA6005884BB /* videoCAT.MP4 in Resources */,
+				81D5F45727DB6BA6005884BB /* Jake-Example-Video-4.mp4 in Resources */,
+				81D5F45827DB6BA6005884BB /* Jake-Example-Video-5.mp4 in Resources */,
 				C8F1FCF227D35CA500AA8757 /* Preview Assets.xcassets in Resources */,
 				C8F1FCEF27D35CA500AA8757 /* Assets.xcassets in Resources */,
 				81D5F45127DB6808005884BB /* VideoCAT-Rotated-To-Vertical.mov in Resources */,
