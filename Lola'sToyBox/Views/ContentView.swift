@@ -4,6 +4,8 @@
 //
 //  Created by Jake Maidment on 05/03/2022.
 //
+
+import AVKit
 import SwiftUI
 
 struct ContentView: View {
@@ -102,6 +104,20 @@ struct ContentView: View {
             }
             .statusBar(hidden: true)
             .preferredColorScheme(.light)
+            // Show the selected video in full screen mode
+            .fullScreenCover(item: $selectedVideo, content: { item in
+
+                // Make the AVPlayer instance using the provided url
+                let player = AVPlayer(url: item.url)
+                
+                VideoPlayer(player: player)
+                    .edgesIgnoringSafeArea(.all)
+                    .onAppear {
+                        player.play()
+                    }
+
+            })
+
             
             //}
             
