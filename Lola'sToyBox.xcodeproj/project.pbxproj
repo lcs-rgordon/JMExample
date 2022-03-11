@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81D5F44C27DB63C2005884BB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5F44B27DB63C2005884BB /* Video.swift */; };
 		C8F1FCEB27D35CA300AA8757 /* Lola_sToyBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */; };
 		C8F1FCED27D35CA300AA8757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1FCEC27D35CA300AA8757 /* ContentView.swift */; };
 		C8F1FCEF27D35CA500AA8757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F1FCEE27D35CA500AA8757 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81D5F44B27DB63C2005884BB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoCAT.MP4; sourceTree = "<group>"; };
 		C8F1FCE727D35CA300AA8757 /* Lola'sToyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lola'sToyBox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lola_sToyBoxApp.swift; sourceTree = "<group>"; };
@@ -33,6 +35,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81D5F44D27DB63F7005884BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81D5F44B27DB63C2005884BB /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81D5F44E27DB6402005884BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8F1FCEC27D35CA300AA8757 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81D5F44F27DB6410005884BB /* VideoAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */,
+			);
+			path = VideoAssets;
+			sourceTree = "<group>";
+		};
 		C8F1FCDE27D35CA300AA8757 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +78,10 @@
 		C8F1FCE927D35CA300AA8757 /* Lola'sToyBox */ = {
 			isa = PBXGroup;
 			children = (
-				C8D71BBA27D6AA0F00329B05 /* videoCAT.MP4 */,
 				C8F1FCEA27D35CA300AA8757 /* Lola_sToyBoxApp.swift */,
-				C8F1FCEC27D35CA300AA8757 /* ContentView.swift */,
+				81D5F44D27DB63F7005884BB /* Model */,
+				81D5F44F27DB6410005884BB /* VideoAssets */,
+				81D5F44E27DB6402005884BB /* Views */,
 				C8F1FCEE27D35CA500AA8757 /* Assets.xcassets */,
 				C8F1FCF027D35CA500AA8757 /* Preview Content */,
 			);
@@ -140,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F1FCED27D35CA300AA8757 /* ContentView.swift in Sources */,
+				81D5F44C27DB63C2005884BB /* Video.swift in Sources */,
 				C8F1FCEB27D35CA300AA8757 /* Lola_sToyBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
